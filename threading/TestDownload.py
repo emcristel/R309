@@ -1,6 +1,6 @@
-from ex1 import thread
-from ex1 import pool
-from ex1 import multi  
+from threading.ex1 import thread
+from threading.ex1 import pool
+from threading.ex1 import multi  
    
    
 #for i in range(thread):
