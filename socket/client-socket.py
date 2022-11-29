@@ -19,3 +19,7 @@ if menu == "1" : # Si demande d'envoi de message, ouverture d'une boucle
         data = client_socket.recv(1024).decode() #Réception de données
         print(f"Message reçu : {data}")
     client_socket.close() #Fermeture de la communication
+
+    sortie = input("voulez vous quitter ? (y/n) : ")
+    if sortie == "y" or message == "kill":
+        connexion == "0" 
