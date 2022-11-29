@@ -4,7 +4,7 @@ message = "rien"
 
 
 client_socket = socket.socket()
-client_socket.connect((locahost, 10001))
+client_socket.connect(('locahost', 10001))
 print("Connexion établie...")
 
 menu = input("Menu général, que voulez-vous faire ?\n1. Envoyer un message\n2. Quitter\n")
